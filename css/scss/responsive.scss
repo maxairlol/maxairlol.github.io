@@ -1,0 +1,206 @@
+@media (min-width: $screen-sm) {
+
+  .container {
+    max-width: 540px;
+  }
+
+  .item-portfolio {
+    &__body {
+      flex: 0 0 66.66%;
+    }
+
+    &__icon {
+      flex: 0 0 33.33%;
+    }
+  }
+
+  .header {
+    &__container {
+      padding: 0;
+    }
+
+    &__inner {
+      padding: 15px 0;
+    }
+  }
+
+  .about {
+    &__bio {
+      justify-content: space-between;
+    }
+
+    &__photo {
+      flex: 0 0 50%;
+    }
+
+    &__info {
+      flex: 0 0 50%;
+    }
+  }
+
+  .counter {
+    padding: 80px 0;
+
+    &__row {
+      margin: 0 -15px;
+    }
+
+    &__column {
+      flex: 0 0 25%;
+      margin-bottom: 30px;
+      padding: 0 15px;
+    }
+  }
+}
+
+@media (min-width: $screen-md) {
+  .container {
+    max-width: 720px;
+  }
+
+  .nav {
+    flex-basis: auto;
+    max-height: none;
+
+    &__list {
+      display: flex;
+
+      &-item {
+        padding-left: 10px;
+
+        &:before {
+          margin-left: 18px;
+        }
+      }
+    }
+
+    &__link {
+      padding: 8px;
+    }
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .header {
+    &__inner {
+      flex-wrap: nowrap;
+      padding: 15px;
+    }
+  }
+
+  .intro {
+    &__title {
+      font-size: 72px;
+    }
+
+    &__subtitle {
+      font-size: 40px;
+    }
+  }
+
+  .about {
+    &__inner {
+      padding: 64px 48px;
+    }
+
+    &__row {
+      margin: 0 -15px;
+    }
+
+    &__column {
+      flex: 0 0 50%;
+      padding: 0 15px;
+    }
+
+    &__photo {
+      flex: 0 0 41.66%;
+    }
+
+    &__info {
+      flex: 0 0 58.33%;
+    }
+
+    &__description {
+      padding-top: 0;
+    }
+  }
+
+  .services {
+    &__row {
+      margin: 0 -15px;
+    }
+
+    &__column {
+      flex: 0 0 33.33%;
+      padding: 0 15px;
+    }
+  }
+
+  .counter {
+    padding: 128px 0;
+  }
+
+  .portfolio {
+    &__row {
+      margin: 0 -15px;
+    }
+
+    &__column {
+      flex: 0 0 33.33%;
+      padding: 0 15px;
+    }
+  }
+
+  .testimonials {
+    &__text {
+      padding: 0 80px;
+    }
+  }
+
+  .contact {
+    &__inner {
+      padding: 48px;
+    }
+
+    &__column {
+      flex: 0 0 50%;
+    }
+
+    &__info {
+      padding-top: 0;
+    }
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .container {
+    max-width: 960px;
+  }
+
+  .testimonials {
+    &__text {
+      padding: 0 128px;
+    }
+  }
+}
+
+@media (min-width: $screen-xl) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .testimonials {
+    &__text {
+      padding: 0 208px;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .intro, .counter, .testimonials {
+    background-attachment: fixed;
+  }
+}
+
